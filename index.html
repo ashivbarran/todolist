@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="display-4">To do List!</div>
+        <div class="alert alert-anger col-6" id="message" style="display: none"></div>
+
+        <div class="text-info col-6">
+            <input type="text" placeholder="If nothing else, today am going to" id="toDoItem"
+                class="form-control"><br />
+            <button onclick="addItem()" class="btn btn-sm btn-primary">
+                <span class="fa fa-plus"></span>Add this item
+            </button>
+        </div>
+
+        <div>
+            <ul class="list-group list-group-flush" id="toDoList">
+                <!--
+                        Adding List Items through Javascript
+                    -->
+
+            </ul>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
